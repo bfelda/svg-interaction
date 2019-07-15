@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="716.161" height="1382.81" viewBox="0 0 716.161 1382.81">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="353" height="109" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bear" transform="translate(-275.323 -34.569)">
+    <g id="face" transform="translate(-109 -251)">
+      <g id="face-bg">
+        <path id="face-base" d="M275.461,537.945l-.461.095v-.19L86.275,498.981,0,266.824,54.9,103.686,18.823,75.294,32.941,25.255,119.216,0l9.411,15.686-9.411,37.647L275,25.42v-.165l51.67-9.569L291.892,30.023l139.814,23.31-9.411-37.647L431.706,0l86.275,25.255L532.1,75.294,496.02,103.686l54.9,163.138L464.648,498.981,275.922,537.85v.19Z" transform="translate(469.667 285.569)" fill="#e3a737"/>
+        <path id="Intersection_1" data-name="Intersection 1" d="M137.8,498.981,51.523,266.824,106.3,104.062l30.229-22.227-17.834,48.154,17.834-3.656-17.834,86.589L91.049,248.5l19.618-10.7-19.618,41.11,45.479,79.367-5.35,38.345,9.72-21.4,42,113.252,24.969,23.1-3.163,1.19Z" transform="translate(418.144 285.569)" fill="#de6f3e"/>
+        <path id="right-ear" d="M971.121,367.4l15.16-12.485-48.244-47.263L965.681,346v21.4Z" fill="#de6f3e"/>
+        <path id="left-ear" d="M577.857,323.618l8.026-26.663-60.728,17.835,43.785-5.44Z" fill="#de6f3e"/>
+      </g>
+      <g id="glasses-eyes">
+        <ellipse id="left-eye" cx="14" cy="26" rx="14" ry="26" transform="translate(632 473)"/>
+        <ellipse id="right-eye" cx="14" cy="26" rx="14" ry="26" transform="translate(830 473)"/>
+        <path id="glasses-bridge" d="M708.855,485.025s36.936-48.171,72.765,0" transform="translate(-1.784)" fill="none" stroke="#000" stroke-width="10"/>
+        <g id="glasses" transform="translate(570 451)" clip-path="url(#clip-path)">
+          <g transform="translate(-570 -466)">
+            <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(570 466)" fill="none" stroke="#000" stroke-width="12">
+              <rect width="141" height="109" rx="22" stroke="none"/>
+              <rect x="6" y="6" width="129" height="97" rx="16" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-364 -466)">
+            <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(570 466)" fill="none" stroke="#000" stroke-width="12">
+              <rect width="141" height="109" rx="22" stroke="none"/>
+              <rect x="6" y="6" width="129" height="97" rx="16" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="muzzle-nose">
+        <path id="muzzle-left" d="M745.127,451.228l-61.152,29.339L659.809,635.821l15.16,40.129,70.159,29.339Z" transform="translate(0 22)" fill="#d1ccba"/>
+        <path id="muzzle-right" d="M659.809,451.228l61.152,29.339,24.167,155.254-15.16,40.129-70.159,29.339Z" transform="translate(85 22)" fill="#d8d4c4"/>
+        <path id="nose" d="M674.969,578.659h140.9L745.5,635.744Z" transform="translate(0 -15)"/>
+        <line id="nose-line" y1="73" transform="translate(745.5 602.5)" fill="none" stroke="#000" stroke-width="6"/>
+        <path id="mouth" d="M690.5,684.475s54.039,24.258,105.677,0" transform="translate(2 -18)" fill="none" stroke="#000" stroke-width="5"/>
+      </g>
+    </g>
+    <g id="shirt">
+      <path id="shirt-base" d="M318.183,808.383l-53.694,53.409L26.449,821.165V550.781L53.878,281.789,90.165,75.477,53.878,59.642,125.388,0l192.8,34.542L510.98,0l71.51,59.642L547.182,76.268,582.49,281.789l27.428,268.992V821.165L371.877,861.791Z" transform="translate(315.428 532.897)" fill="#d7d3c3"/>
+      <path id="tie" d="M60.337,525.472l-.337.344v-.688L0,463.9,56.166,28.594l-6.127-8.169L60,1.295V0l.337.647L60.674,0V1.295l9.96,19.13-6.127,8.169L120.675,463.9l-60,61.223v.688Z" transform="translate(573.453 593.385)" fill="#375e88"/>
+      <path id="pocket" d="M730.4,763.149l84-10.678,10.678,94.682-39.154,31.323-46.985-22.781Z" fill="none" stroke="#cdc9ba" stroke-width="5"/>
+      <g id="pens" transform="translate(-79.056 -118.179) rotate(-7)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="8" height="33" transform="translate(753 938)" fill="#7cb68a"/>
+        <path id="Path_15" data-name="Path 15" d="M0-10.079H8V32.991H0Z" transform="translate(761 938)" fill="#37684c"/>
+      </g>
+      <g id="collars">
+        <path id="Path_8" data-name="Path 8" d="M633.612,589.239l17.411,33.189,158.8-78.633" fill="none" stroke="#c9c5b6" stroke-width="5"/>
+        <path id="Path_9" data-name="Path 9" d="M809.821,589.239,792.41,622.429,633.612,543.8" transform="translate(-176)" fill="none" stroke="#cdc9ba" stroke-width="5"/>
+      </g>
+      <path id="shirt-tie-shade" d="M572.044,1063.3l61.574,64.313v187.494" fill="none" stroke="#cdc9ba" stroke-width="6"/>
+      <g id="buttons">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="6.5" cy="10.5" rx="6.5" ry="10.5" transform="translate(642 1119)" fill="#cdc9ba"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="6.5" cy="10.5" rx="6.5" ry="10.5" transform="translate(642 1189)" fill="#cdc9ba"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="6.5" cy="10.5" rx="6.5" ry="10.5" transform="translate(642 1259)" fill="#cdc9ba"/>
+      </g>
+    </g>
+    <g id="upper-left-shirt" transform="translate(281.482 592.614)">
+      <path id="left-shift" d="M368.669,592.614,309.027,783.848l59.642,30.294,38.815-206.38Z" transform="translate(-281.482 -592.614)" fill="#d7d3c3"/>
+      <path id="left-pit" d="M368.9,851.843,386.339,750.08l-30.484,94.733Z" transform="translate(-280.482 -629.614)" fill="#cdc9ba"/>
+    </g>
+    <g id="left-bare-arm" transform="translate(275.323 592.614)">
+      <g id="lower-left-arm" transform="translate(0 424.817)">
+        <path id="lower-arm" d="M284.578,5485.109l-10.255,343.608,63.453,41.661,3.782-95.5,27.625,31.406L382,5797.248l-40.443-64.735v-206.96l3-32.047-13.832-17.946-30.124-5.127Z" transform="translate(-274.323 -5470.432)" fill="#e3a737"/>
+        <path id="lower-shade-1" d="M283.29,5503.99l-8.967,324.728,16.024,11.473,8-310.2Z" transform="translate(-273.323 -5470.432)" fill="#de6f3e"/>
+        <path id="lower-shade-2" d="M337.776,5535.744l-8.973,213.5,13.46-39.8V5524.271Z" transform="translate(-275.323 -5470.432)" fill="#de6f3e"/>
+        <path id="thumb-shade" d="M342.263,5765.2l19.228,29.547,12.178,9.614-4.487,3.782-26.92-33.265Z" transform="translate(-275.323 -5471.432)" fill="#de6f3e"/>
+      </g>
+      <g id="upper-left-bare-arm" transform="translate(6.16)">
+        <path id="upper-arm" d="M323.034,5243.475,282.123,5497.6l22.747,45.385,18.164,4.441,14.625-14.6,8.264-8.251,23.913-261.8Z" transform="translate(-281.482 -5045.614)" fill="#e3a737"/>
+        <path id="upper-shade-1" d="M321.111,5258.28,280.482,5495.4l17.5,32.739Z" transform="translate(-280.482 -5042.614)" fill="#de6f3e"/>
+        <path id="upper-shade-2" d="M359.568,5258.28l-11.6,58.9,11.6-6.987-29.9,230.763,14.935-19,23.938-258.611Z" transform="translate(-280.482 -5042.614)" fill="#de6f3e"/>
+      </g>
+    </g>
+    <g id="upper-right-shirt" transform="translate(859.323 592.614)">
+      <path id="left-shift-2" data-name="left-shift" d="M347.842,592.614l59.642,191.233-59.642,30.294-38.815-206.38Z" transform="translate(-309.027 -592.614)" fill="#d7d3c3"/>
+      <path id="left-pit-2" data-name="left-pit" d="M373.3,851.843,355.855,750.08l30.484,94.733Z" transform="translate(-335.711 -629.614)" fill="#cdc9ba"/>
+    </g>
+    <g id="right-bare-arm" transform="translate(883.806 790.475)">
+      <g id="lower-right-arm" transform="translate(0 226.957)">
+        <path id="lower-arm-2" data-name="lower-arm" d="M371.746,5485.109,382,5828.718l-63.453,41.661-3.782-95.5-27.625,31.406-12.819-9.037,40.443-64.735v-206.96l-3-32.047,13.832-17.946,30.124-5.127Z" transform="translate(-274.323 -5470.432)" fill="#e3a737"/>
+        <path id="lower-shade-1-2" data-name="lower-shade-1" d="M289.379,5503.99l8.967,324.728-16.024,11.473-8-310.2Z" transform="translate(-191.668 -5470.432)" fill="#de6f3e"/>
+        <path id="lower-shade-2-2" data-name="lower-shade-2" d="M333.289,5535.744l8.973,213.5-13.46-39.8V5524.271Z" transform="translate(-288.064 -5470.432)" fill="#de6f3e"/>
+        <path id="thumb-shade-2" data-name="thumb-shade" d="M373.669,5765.2l-19.228,29.547-12.178,9.614,4.487,3.782,26.92-33.265Z" transform="translate(-332.93 -5471.432)" fill="#de6f3e"/>
+      </g>
+      <g id="upper-right-bare-arm" transform="translate(13.165)">
+        <path id="upper-arm-2" data-name="upper-arm" d="M328.925,5243.475,369.836,5497.6l-22.747,45.385-18.164,4.441-14.625-14.6-8.264-8.251-23.913-261.8Z" transform="translate(-282.123 -5243.475)" fill="#e3a737"/>
+        <path id="upper-shade-1-2" data-name="upper-shade-1" d="M280.482,5258.28,321.111,5495.4l-17.5,32.739Z" transform="translate(-232.758 -5240.475)" fill="#de6f3e"/>
+        <path id="upper-shade-2-2" data-name="upper-shade-2" d="M338.641,5258.28l11.6,58.9-11.6-6.987,29.9,230.763-14.935-19-23.938-258.611Z" transform="translate(-329.373 -5240.475)" fill="#de6f3e"/>
+      </g>
+    </g>
+  </g>
+</svg>

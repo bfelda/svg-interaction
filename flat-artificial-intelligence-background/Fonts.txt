@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Bebas Neue
+Author: Fontfabric
+Url: http://www.fontsquirrel.com/fonts/bebas-neue
+
+Font: Open Sans
+Author: Ascender Fonts
+Url: http://www.fontsquirrel.com/fonts/open-sans
