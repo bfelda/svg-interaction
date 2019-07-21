@@ -98,6 +98,20 @@ input {
 </body>
 
 <script>
-
+    let main = document.querySelector('.main'),
+        line = document.querySelector('.magnifier line'),
+        mInput = document.querySelector('input');
+    
+    main.addEventListener('click', () => {
+        let open = main.classList.contains('open');
+        if(open) {
+            main.classList.remove('open');
+            line.setAttribute('x2', 33.1);
+            mInput.blur();
+            mInput.value('');
+        } else {
+            
+        }
+    })
 </script>
 </html>
