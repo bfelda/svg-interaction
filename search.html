@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+</head>
+<style>
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "lato", sans-serif;
+  color: slategray}
+
+.magnifier, input, .x-out {
+  margin-left: 30vw;
+  margin-top: 40vh;
+  cursor: pointer;
+  position: absolute;
+}
+
+.magnifier, input {
+    width: 400px;   
+}
+
+.x-out {
+    width: 6px;
+    padding: 5px 6px;
+    transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+
+.x-out line {
+    stroke-width: 2px;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+input {
+    font-size: 35px;
+    padding-left: 30px;
+    background: none;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.magnifier circle, .magnifier line, .x-out line {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+    .magnifier line {
+        transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        transform: rotate(0deg) translateY(0px);
+    }
+    .magnifier circle {
+        transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        transform: scale(1);
+    }
+
+/* open state */
+
+.open .magnifier line {
+    transition: 0.65s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: rotate(-2.5deg) translateY(14px);
+    }
+    .open .magnifier circle {
+        transition: 0.35s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transform: scale(0.5);
+    }
+
+.open .x-out line {
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.75s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+</style>
+<body>
+    <div class="main">
+        <svg class="magnifier" viewBox="0 0 300 34">
+            <title>magnifier</title>
+            <circle class="cls-1" cx="12.1" cy="12.1" r="11.6"/>
+            <line class="cls-1" x1="20.5" y1="20" x2="33.1" y2="32.6"/>
+        </svg>
+        <input id="textinput" type="text">
+        <svg class="x-out" viewBox="0 0 29.3 29.3">
+            <title>x-out</title>
+            <line x1="0.5" y1="0.5" x2="28.8" y2="28.8"/>
+            <line x1="0.5" y1="28.8" x2="28.8" y2="0.5"/>
+        </svg>
+    </div>
+</body>
+
+<script>
+
+</script>
+</html>
