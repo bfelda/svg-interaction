@@ -9,16 +9,17 @@
 <style>
 
 body {
-  width: 100vw;
-  height: 100vh;
-  font-family: "lato", sans-serif;
-  color: slategray}
+    width: 100vw;
+    height: 100vh;
+    font-family: "lato", sans-serif;
+    background: slategray;
+}
 
 .magnifier, input, .x-out {
-  margin-left: 30vw;
-  margin-top: 40vh;
-  cursor: pointer;
-  position: absolute;
+    margin-left: 30vw;
+    margin-top: 40vh;
+    cursor: pointer;
+    position: absolute;
 }
 
 .magnifier, input {
@@ -26,9 +27,9 @@ body {
 }
 
 .x-out {
-    width: 6px;
-    padding: 5px 6px;
-    transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 14px;
+    padding: 7px 0 0 8px;
+    transition: 0.5s all ease-out;
     cursor: pointer;
 }
 
@@ -52,33 +53,30 @@ input {
     fill: none;
     stroke: #fff;
     stroke-linecap: round;
-    transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: 0.25s all ease-out;
 }
 
-    .magnifier line {
-        transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
-        transform: rotate(0deg) translateY(0px);
-    }
-    .magnifier circle {
-        transition: 0.25s all cubic-bezier(0.55, 0.085, 0.68, 0.53);
-        transform: scale(1);
-    }
+.magnifier line {
+    transform: rotate(0deg) translateY(0px);
+}
 
-/* open state */
+.magnifier circle {
+    transform: scale(1);
+}
 
 .open .magnifier line {
-    transition: 0.65s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 0.65s all ease-out;
     transform: rotate(-2.5deg) translateY(14px);
-    }
-    .open .magnifier circle {
-        transition: 0.35s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        transform: scale(0.5);
-    }
+}
+.open .magnifier circle {
+    transition: 0.35s all ease-out;
+    transform: scale(0.9);
+}
 
 .open .x-out line {
     opacity: 1;
     transform: scale(1);
-    transition: 0.75s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 0.75s all ease-out;
 }
 </style>
 <body>
@@ -108,9 +106,11 @@ input {
             main.classList.remove('open');
             line.setAttribute('x2', 33.1);
             mInput.blur();
-            mInput.value('');
+            mInput.value = '';
         } else {
-            
+            main.classList.add('open');
+            line.setAttribute('x2', 300);
+            mInput.focus();
         }
     })
 </script>
