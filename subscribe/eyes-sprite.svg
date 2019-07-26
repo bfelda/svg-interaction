@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="381.781" height="328" viewBox="0 0 381.781 328">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e3a737"/>
+      <stop offset="1" stop-color="#de6f3e"/>
+    </linearGradient>
+  </defs>
+  <g id="eyes-sprite" transform="translate(-1248.859 -363.5)">
+    <g id="Eyes" transform="translate(675 -64)">
+      <g id="right-eye" transform="translate(196 -4)">
+        <g id="right-eyeball" transform="translate(618 463)" fill="#fff" stroke="#000" stroke-width="5">
+          <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
+          <circle cx="63.5" cy="63.5" r="61" fill="none"/>
+        </g>
+        <g id="right-pupil">
+          <circle id="Ellipse_5" data-name="Ellipse 5" cx="44.5" cy="44.5" r="44.5" transform="translate(637 479)"/>
+          <circle id="Ellipse_6" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(694 544)" fill="#fff"/>
+          <circle id="Ellipse_7" data-name="Ellipse 7" cx="12" cy="12" r="12" transform="translate(670 495)" fill="#fff"/>
+        </g>
+        <g id="right-brow" transform="translate(640.5 431.5)">
+          <line id="Line_4" data-name="Line 4" y1="34" transform="translate(35)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_5" data-name="Line 5" x1="15" y1="32" transform="translate(0 8)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_7" data-name="Line 7" y1="31" x2="8" transform="translate(59 5)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_8" data-name="Line 8" y1="26" x2="18" transform="translate(79 21)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_9" data-name="Line 9" y1="20" x2="23" transform="translate(93 42)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+      </g>
+      <g id="left-eye" transform="translate(-31 -4)">
+        <g id="left-eyeball" transform="translate(618 463)" fill="#fff" stroke="#000" stroke-width="5">
+          <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
+          <circle cx="63.5" cy="63.5" r="61" fill="none"/>
+        </g>
+        <g id="left-pupil">
+          <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="44.5" cy="44.5" r="44.5" transform="translate(637 479)"/>
+          <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="12" cy="12" r="12" transform="translate(694 544)" fill="#fff"/>
+          <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="12" cy="12" r="12" transform="translate(670 495)" fill="#fff"/>
+        </g>
+        <g id="left-brow" transform="translate(-165 77)">
+          <line id="Line_4-2" data-name="Line 4" y1="34" transform="translate(852.5 354.5)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_5-2" data-name="Line 5" y1="32" x2="15" transform="translate(872.5 362.5)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_7-2" data-name="Line 7" x1="8" y1="31" transform="translate(820.5 359.5)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_8-2" data-name="Line 8" x1="18" y1="26" transform="translate(790.5 375.5)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_9-2" data-name="Line 9" x1="23" y1="20" transform="translate(771.5 396.5)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+      </g>
+    </g>
+    <g id="closed-eyes" transform="translate(479 150)">
+      <g id="left-eye-closed">
+        <g id="left-eye-lid" transform="translate(785 386)" stroke="#000" stroke-width="5" fill="url(#linear-gradient)">
+          <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+          <circle cx="61.5" cy="61.5" r="59" fill="none"/>
+        </g>
+        <g id="left-brow-closed" transform="translate(771.5 479.5)">
+          <line id="Line_4-3" data-name="Line 4" y2="34" transform="translate(81 28)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_5-3" data-name="Line 5" x2="15" y2="32" transform="translate(101 22)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_7-3" data-name="Line 7" x1="8" y2="31" transform="translate(49 26)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_8-3" data-name="Line 8" x1="18" y2="26" transform="translate(19 15)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_9-3" data-name="Line 9" x1="23" y2="20" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+      </g>
+      <g id="right-eye-closed" transform="translate(1013.5 386)">
+        <g id="left-eye-lid-2" data-name="left-eye-lid" stroke="#000" stroke-width="5" fill="url(#linear-gradient)">
+          <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+          <circle cx="61.5" cy="61.5" r="59" fill="none"/>
+        </g>
+        <g id="left-brow-closed-2" data-name="left-brow-closed" transform="translate(20.5 93.5)">
+          <line id="Line_4-4" data-name="Line 4" y2="34" transform="translate(35 28)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_5-4" data-name="Line 5" x1="15" y2="32" transform="translate(0 22)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_7-4" data-name="Line 7" x2="8" y2="31" transform="translate(59 26)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_8-4" data-name="Line 8" x2="18" y2="26" transform="translate(79 15)" fill="none" stroke="#000" stroke-width="5"/>
+          <line id="Line_9-4" data-name="Line 9" x2="23" y2="20" transform="translate(93)" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

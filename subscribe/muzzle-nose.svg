@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190.37" height="254.235" viewBox="0 0 190.37 254.235">
+  <g id="muzzle-nose" transform="translate(-650.478 -473.228)">
+    <path id="muzzle-left" d="M745.127,451.228l-61.152,29.339L650.478,588.2l24.491,87.755,70.159,29.339Z" transform="translate(0 22)" fill="#d5d1c2"/>
+    <path id="muzzle-right" d="M659.809,451.228l61.152,29.339,34.887,109.5-25.88,85.888-70.159,29.339V451.228Z" transform="translate(85 22)" fill="#e5e7da"/>
+    <path id="nose" d="M674.969,578.659h140.9L745.5,635.744Z" transform="translate(0 -15)"/>
+    <line id="nose-line" y1="73" transform="translate(745.5 602.5)" fill="none" stroke="#000" stroke-width="6"/>
+    <path id="mouth" d="M716.913,859.389c-57.987,0-73.906-29.885-73.906-26.191s27.119,58.542,73.906,58.542,79.075-54.848,79.075-58.542S774.9,859.389,716.913,859.389Z" transform="translate(28 -210)"/>
+  </g>
+</svg>
