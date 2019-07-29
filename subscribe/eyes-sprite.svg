@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="381.781" height="500.5" viewBox="0 0 381.781 500.5">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="381.781" height="673.5" viewBox="0 0 381.781 673.5">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#e3a737"/>
@@ -10,8 +10,9 @@
     </linearGradient>
     <linearGradient id="linear-gradient-4" x1="0.618" y1="0.38" x2="0.5" y2="0.663" xlink:href="#linear-gradient-3"/>
     <linearGradient id="linear-gradient-6" x1="0.382" y1="0.38" x2="0.5" y2="0.663" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-7" x1="0.5" y1="0" x2="0.5" y2="1.123" xlink:href="#linear-gradient-3"/>
   </defs>
-  <g id="eyes-sprite" transform="translate(-1248.859 -363.5)">
+  <g id="eyes-sprite" transform="translate(-1248.86 -363.5)">
     <g id="Eyes" transform="translate(675 -64)">
       <g id="right-eye" transform="translate(196 -4)">
         <g id="right-eyeball" transform="translate(618 463)" fill="#fff" stroke="#000" stroke-width="5">
@@ -93,8 +94,8 @@
         </g>
         <g id="left-pupil-2" data-name="left-pupil" transform="translate(29.5 31.5)">
           <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="30" cy="30" r="30" transform="translate(637 479)"/>
-          <circle id="Ellipse_6-3" data-name="Ellipse 6" cx="8.09" cy="8.09" r="8.09" transform="translate(675.427 522.82)" fill="#fff"/>
-          <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="8.09" cy="8.09" r="8.09" transform="translate(659.247 489.787)" fill="#fff"/>
+          <circle id="Ellipse_6-3" data-name="Ellipse 6" cx="9.59" cy="9.59" r="9.59" transform="translate(672.427 519.82)" fill="#fff"/>
+          <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="14.09" cy="14.09" r="14.09" transform="translate(647.247 489.787)" fill="#fff"/>
         </g>
         <g id="lower-brow" transform="translate(2)">
           <path id="Path_61" data-name="Path 61" d="M578.753,586s33.437-15.491,66.406-15.491S710.629,586,710.629,586Z" transform="translate(33 4)" fill="url(#linear-gradient-3)"/>
@@ -112,8 +113,8 @@
         </g>
         <g id="left-pupil-3" data-name="left-pupil" transform="translate(27.5 31.5)">
           <circle id="Ellipse_5-4" data-name="Ellipse 5" cx="30" cy="30" r="30" transform="translate(637 479)"/>
-          <circle id="Ellipse_6-4" data-name="Ellipse 6" cx="8.09" cy="8.09" r="8.09" transform="translate(675.427 522.82)" fill="#fff"/>
-          <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="8.09" cy="8.09" r="8.09" transform="translate(659.247 489.787)" fill="#fff"/>
+          <circle id="Ellipse_6-4" data-name="Ellipse 6" cx="10.09" cy="10.09" r="10.09" transform="translate(671.427 518.82)" fill="#fff"/>
+          <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="13.59" cy="13.59" r="13.59" transform="translate(648.247 489.787)" fill="#fff"/>
         </g>
         <g id="left-brow-2" data-name="left-brow" transform="translate(-165 77)">
           <line id="Line_4-6" data-name="Line 4" y1="34" transform="translate(852.5 354.5)" fill="none" stroke="#000" stroke-width="5"/>
@@ -129,6 +130,38 @@
         <g id="upper-brow-2" data-name="upper-brow" transform="translate(31 4)">
           <path id="Path_63-2" data-name="Path 63" d="M651.4,457.071s-15.224,17.888-27.123,26.656S587.8,500.095,587.8,500.095s6.079-20.108,21.979-30.864S651.4,457.071,651.4,457.071Z" fill="url(#linear-gradient-6)"/>
           <path id="Path_64-2" data-name="Path 64" d="M587.8,500.095s19.875-3.975,35.541-14.5,27.123-27.591,27.123-27.591" fill="none" stroke="#000" stroke-width="5"/>
+        </g>
+      </g>
+    </g>
+    <g id="angry-eyes" transform="translate(675 451)">
+      <g id="right-eye-3" data-name="right-eye" transform="translate(196 -4)">
+        <g id="right-eyeball-3" data-name="right-eyeball" transform="translate(618 463)" fill="#fff" stroke="#000" stroke-width="5">
+          <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
+          <circle cx="63.5" cy="63.5" r="61" fill="none"/>
+        </g>
+        <g id="right-pupil-2" data-name="right-pupil" transform="translate(3.5 29.5)">
+          <circle id="Ellipse_5-5" data-name="Ellipse 5" cx="20.5" cy="20.5" r="20.5" transform="translate(637 479)"/>
+          <circle id="Ellipse_6-5" data-name="Ellipse 6" cx="5.528" cy="5.528" r="5.528" transform="translate(663.258 508.944)" fill="#fff"/>
+          <circle id="Ellipse_7-5" data-name="Ellipse 7" cx="5.528" cy="5.528" r="5.528" transform="translate(652.202 486.371)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="left-eye-3" data-name="left-eye" transform="translate(-35 -4)">
+        <g id="left-eyeball-3" data-name="left-eyeball" transform="translate(618 463)" fill="#fff" stroke="#000" stroke-width="5">
+          <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
+          <circle cx="63.5" cy="63.5" r="61" fill="none"/>
+        </g>
+        <g id="left-pupil-4" data-name="left-pupil" transform="translate(44.5 28.5)">
+          <circle id="Ellipse_5-6" data-name="Ellipse 5" cx="20.5" cy="20.5" r="20.5" transform="translate(637 479)"/>
+          <circle id="Ellipse_6-6" data-name="Ellipse 6" cx="5.528" cy="5.528" r="5.528" transform="translate(663.258 508.944)" fill="#fff"/>
+          <circle id="Ellipse_7-6" data-name="Ellipse 7" cx="5.528" cy="5.528" r="5.528" transform="translate(652.202 486.371)" fill="#fff"/>
+        </g>
+        <g id="angry-brow" transform="translate(35 4)">
+          <path id="Path_66" data-name="Path 66" d="M710.51,528.993l-85.975-36.8-36.845-15.77s31.538-31.537,81.019-14.138S710.51,528.993,710.51,528.993Z" fill="url(#linear-gradient-7)"/>
+          <path id="Path_67" data-name="Path 67" d="M588.69,476.337,709.86,530.712" fill="none" stroke="#000" stroke-width="4"/>
+        </g>
+        <g id="angry-brow-2" data-name="angry-brow" transform="translate(848.69 461.051)">
+          <path id="Path_66-2" data-name="Path 66" d="M588.121,528.993l85.975-36.8,36.845-15.77s-31.538-31.537-81.019-14.138S588.121,528.993,588.121,528.993Z" transform="translate(-587.69 -457.051)" fill="url(#linear-gradient-7)"/>
+          <path id="Path_67-2" data-name="Path 67" d="M709.86,476.337,588.69,530.712" transform="translate(-587.609 -457.051)" fill="none" stroke="#000" stroke-width="4"/>
         </g>
       </g>
     </g>
