@@ -22,10 +22,6 @@ setInterval(() => {
     blink();
 }, 7000);
 
-function idle() {
-    
-}
-
 function updateMouthEyesForUsername() {
     if (inputs.email.value.length > 0) {
         if (inputs.email.value.indexOf("@") > 0 && inputs.email.value.indexOf("@") < email.value.length - 1) {
