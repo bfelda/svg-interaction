@@ -19,7 +19,7 @@
           <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
           <circle cx="63.5" cy="63.5" r="61" fill="none"/>
         </g>
-        <g id="right-pupil" transform="translate(14.5 14.5)">
+        <g id="right-pupil" transform="translate(8.5 20.5)">
           <circle id="Ellipse_5" data-name="Ellipse 5" cx="30" cy="30" r="30" transform="translate(637 479)"/>
           <circle id="Ellipse_6" data-name="Ellipse 6" cx="8.09" cy="8.09" r="8.09" transform="translate(675.427 522.82)" fill="#fff"/>
           <circle id="Ellipse_7" data-name="Ellipse 7" cx="8.09" cy="8.09" r="8.09" transform="translate(659.247 489.787)" fill="#fff"/>
@@ -37,7 +37,7 @@
           <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
           <circle cx="63.5" cy="63.5" r="61" fill="none"/>
         </g>
-        <g id="left-pupil" transform="translate(14.5 14.5)">
+        <g id="left-pupil" transform="translate(20.5 19.5)">
           <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="30" cy="30" r="30" transform="translate(637 479)"/>
           <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="8.09" cy="8.09" r="8.09" transform="translate(675.427 522.82)" fill="#fff"/>
           <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="8.09" cy="8.09" r="8.09" transform="translate(659.247 489.787)" fill="#fff"/>

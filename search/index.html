@@ -15,14 +15,14 @@ body {
     background: slategray;
 }
 
-.magnifier, input, .x-out {
+.magnifier, #textinput, .x-out {
     margin-left: 30vw;
     margin-top: 40vh;
     cursor: pointer;
     position: absolute;
 }
 
-.magnifier, input {
+.magnifier, #textinput {
     width: 400px;   
 }
 
@@ -39,7 +39,7 @@ body {
     transform: scale(0);
     transform-origin: 50% 50%;
 }
-input {
+#textinput {
     font-size: 35px;
     padding-left: 30px;
     background: none;
@@ -65,7 +65,7 @@ input {
 }
 
 .open .magnifier line {
-    transition: 0.65s all ease-out;
+    transition: 0.55s all ease-out;
     transform: rotate(-2.5deg) translateY(14px);
 }
 .open .magnifier circle {
@@ -76,10 +76,14 @@ input {
 .open .x-out line {
     opacity: 1;
     transform: scale(1);
-    transition: 0.75s all ease-out;
+    transition: 0.65s all ease-out;
 }
 </style>
 <body>
+    <div>
+        <input type="text">
+        <input type="text">
+    </div>
     <div class="main">
         <svg class="magnifier" viewBox="0 0 300 34">
             <title>magnifier</title>
@@ -97,21 +101,37 @@ input {
 
 <script>
     let main = document.querySelector('.main'),
+        magnifier = document.querySelector('magnifier'),
         line = document.querySelector('.magnifier line'),
-        mInput = document.querySelector('input');
+        mInput = document.querySelector('#textinput');
     
     main.addEventListener('click', () => {
-        let open = main.classList.contains('open');
-        if(open) {
-            main.classList.remove('open');
-            line.setAttribute('x2', 33.1);
+        if(isOpen()) {
+            closeSearchInput();
             mInput.blur();
-            mInput.value = '';
         } else {
-            main.classList.add('open');
-            line.setAttribute('x2', 300);
+            openSearchInput();
             mInput.focus();
         }
-    })
+    });
+
+    mInput.addEventListener('focus', () => {
+        openSearchInput();
+    });
+
+    openSearchInput = () => {
+        main.classList.add('open');
+        line.setAttribute('x2', 300);
+    }
+    
+    closeSearchInput = () => {
+        main.classList.remove('open');
+        line.setAttribute('x2', 33.1);
+        mInput.value = '';
+    }
+    
+    isOpen = () => {
+        return main.classList.contains('open');
+    }
 </script>
 </html>
