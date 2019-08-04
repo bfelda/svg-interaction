@@ -1,4 +1,6 @@
-<svg viewBox="0 0 778.3 1484.57">
+<svg viewBox="0 0 778.3 1484.57" 
+      aria-labelledby="robot-title robot-desc" 
+      role="img">
   <defs>
     <style>
       .cls-robot-1, .cls-robot-100, .cls-robot-108, .cls-robot-17, .cls-robot-80, .cls-robot-87, .cls-robot-92 {
@@ -590,7 +592,9 @@
     <linearGradient id="linear-gradient-97" x1="-261.63" y1="1029.25" x2="-261.63" y2="1028.25" gradientTransform="matrix(267.87, 0, 0, -28.3, 70464.95, 29754.68)" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-98" x1="-261.68" y1="1030.08" x2="-261.68" y2="1029.08" gradientTransform="matrix(256.08, 0, 0, -24.99, 67394.42, 26389.75)" xlink:href="#linear-gradient"/>
   </defs>
-  <title>Untitled-1</title>
+  <title id="robot-title">Robot</title>
+  <description id="robot-desc">THAT Conference Robot</description>
+  <text>Name: Tom Ro-bro</text>
   <g id="robot">
     <g id="left-arm">
       <g id="left-upper-arm">

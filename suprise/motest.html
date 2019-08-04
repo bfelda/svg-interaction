@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <style>
+        body {
+            background: slategray;
+        }
+    </style>
+</head>
+<body>
+        <button class =”gear-button” name=”button”><i class=”fas fa-cog”></i></button>
+</body>
+<script src="../lib/mo.js"></script>
+<script>
+    const burst = new mojs.Burst({
+        radius: {0:100},
+        count: 20,
+        children: {
+            shape: 'cross',
+            stroke: "teal",
+            strokeWidth: {6:0},
+            angle: {360:0},
+            radius: {
+                30: 5
+            },
+            duration: 3000
+        }
+    });
+
+    const burst2 = new mojs.Burst({
+        radius: {0:200},
+        count: 10,
+        children: {
+            shape: 'zigzag',
+            points: 7,
+            stroke: {"magenta": 'pink'},
+            fill: 'none',
+            strokeWidth: {6:0},
+            angle: {'-360': 0},
+            radius: {
+                30: 5
+            },
+            opacity: {1:0},
+            duration: 3500
+        }
+    });
+
+    const burst3 = new mojs.Burst({
+        radius: {0:200},
+        count: 5,
+        children: {
+            color: 'purple',
+            points: 7,
+            angle: {'-360': 0},
+            radius: {
+                10: 5
+            },
+            opacity: {1:0},
+            duration: 3500
+        }
+    });
+
+    const circ_opt = {
+        radius: {0:200},
+        fill: 'none',
+        stroke: 'yellow',
+        duration: 3000,
+        opacity: {1:0}
+    };
+    const circ = new mojs.Shape({
+        ...circ_opt
+    });
+
+    const circ2 = new mojs.Shape({
+        ...circ_opt,
+        delay: 500
+    });
+
+
+    const timeline = new mojs.Timeline({
+        repeat: 999,
+    }).add(burst, burst2, circ, circ2, burst3).play();
+</script>
+</html>

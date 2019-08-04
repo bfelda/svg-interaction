@@ -1,6 +1,58 @@
 var dollarPassedIn,
     shuffleText;
 
+const starburst = new mojs.Burst({
+    parent: '.starContainer',
+    radius: {0:200},
+    count: 15,
+    children: {
+        fill: 'orange',
+        points: 7,
+        angle: {'-360': 0},
+        radius: {
+            10: 5
+        },
+        opacity: {1:0},
+        duration: 2000
+    }
+});
+
+const starburst2 = new mojs.Burst({
+    parent: '.starContainer',
+    radius: {0:400},
+    count: 20,
+    children: {
+        fill: 'lightgreen',
+        points: 7,
+        angle: {'90': 0},
+        radius: {
+            10: 5
+        },
+        opacity: {1:0},
+        duration: 1500
+    }
+});
+
+const circ_opt = {
+    parent: '.starContainer',
+    radius: {50:200},
+    fill: 'none',
+    stroke: 'yellow',
+    duration: 1500,
+    opacity: {1:0}
+};
+const circ = new mojs.Shape({
+    ...circ_opt
+});
+
+const circ2 = new mojs.Shape({
+    ...circ_opt,
+    delay: 500
+});
+
+const burstTl = new mojs.Timeline({
+}).add(starburst, starburst2, circ, circ2);
+
 var nums = document.querySelectorAll('.numberContainer>span');
 var trigger = document.querySelector('.trigger');
 
@@ -58,45 +110,35 @@ var activateShuffle = function (dollarValue) {
     intervals.push(setInterval(shuffle, shuffleDebounce, nums[0]));
 
     for (var i = 0; i < intervals.length; i++) {
-        setTimeout(killShuffle, 1000 * (i + 1), i, dollarValue);
+        setTimeout(killShuffle, 500 * (i + 1), i, dollarValue);
     }
 };
 
 function textShuffle() {
     var dollarsTl = new TimelineLite({ delay: .5 });
-    var starTl = new TimelineLite({ delay: 6.3 });
-    var giftsTl = new TimelineLite({ delay: 6.5 });
-
+    var starTl = new TimelineLite({ delay: 3.5 });
+    var giftsTl = new TimelineLite({ delay: 5 });
+setTimeout(() => {
+    burstTl.play();
+}, 3500);
     //move the dollars down, this is timed with the stripping zero's function
     dollarsTl.to('.dollars', .2, { 'opacity': 1 })
-        .to('.dollars', 1, { 'top': '+=120px', ease: Elastic.easeOut.config(1, 0.3) }, 5.8);
+        .to('.dollars', 1, { 'top': '+=150px', ease: Elastic.easeOut.config(1, 0.3) }, 3);
 
     //Show the stars and kick off the burst
     //This has two different animations dependent on the dollar value.  One penny only goes to the organization
     starTl.to('#stars', .8, { 'opacity': 1, 'scale': 1, ease: Bounce.easeOut })
-        .to('#burst', 1, { 'opacity': .5 })
-        .to('#burst', 100, { rotation: 360, repeat: -1, transformOrigin: "50% 50%", ease: Linear.easeNone });
+        .to('#burst', 1, { 'opacity': .4 })
+        .to('#burst', 100, { rotation: 360, repeat: -1, transformOrigin: "50% 50%", ease: Linear.easeNone }, '-=100');
     giftsTl.to('#reward', .8, { 'scale': 1, 'opacity': 1, ease: Expo.easeInOut })
         .to('#reward', .8, { 'scale': .75, 'opacity': 1, ease: Expo.easeInOut, y: -50 }, 1)   
-        .to('#moving-on', .8, { 'opacity': 1, y: -100, ease: Expo.easeInOut });
+        .to('#moving-on', .8, { 'opacity': 1, y: 0, ease: Expo.easeInOut });
 }
-
-var bonusPresentationInit = function () {
-    var boostAnime = new TimelineLite({ delay: 2 });
-    var boostPulse = new TimelineMax({ repeat: -1, yoyo: true, delay: 4 });
-    var delayNote = new TimelineLite({ delay: 9 });
-    boostAnime.to('.kickoffBtn', 1.5, { 'opacity': 1, 'y': 0, ease: Expo.easeOut })
-        .to('.coinContainer', .8, { 'opacity': 1, ease: Expo.Linear }, '-=.5');
-    boostPulse.to('.coinContainer', .6, { 'scale': 1.1 });
-};
-
-bonusPresentationInit();
 
 var init = function (dollarPassedIn) {
     shuffleText = transformIntToShuffleString(dollarPassedIn);
     activateShuffle(shuffleText);
-
     textShuffle();
 };
-let value = Math.floor(Math.random() * 100) + 1;
-init(value, value, value);
+let value = Math.floor(Math.random() * 500) + 1;
+init(value);
