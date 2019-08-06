@@ -13,77 +13,61 @@
     </style>
 </head>
 <body>
-        <button class =”gear-button” name=”button”><i class=”fas fa-cog”></i></button>
 </body>
 <script src="../lib/mo.js"></script>
 <script>
-    const burst = new mojs.Burst({
-        radius: {0:100},
-        count: 20,
-        children: {
-            shape: 'cross',
-            stroke: "teal",
-            strokeWidth: {6:0},
-            angle: {360:0},
-            radius: {
-                30: 5
-            },
-            duration: 3000
-        }
-    });
+const starburst = new mojs.Burst({
+    radius: {0:200},
+    count: 15,
+    children: {
+        fill: 'orange',
+        points: 7,
+        angle: {'-360': 0},
+        radius: {
+            10: 5
+        },
+        opacity: {1:0},
+        duration: 2000
+    }
+}).play();
 
-    const burst2 = new mojs.Burst({
-        radius: {0:200},
-        count: 10,
-        children: {
-            shape: 'zigzag',
-            points: 7,
-            stroke: {"magenta": 'pink'},
-            fill: 'none',
-            strokeWidth: {6:0},
-            angle: {'-360': 0},
-            radius: {
-                30: 5
-            },
-            opacity: {1:0},
-            duration: 3500
-        }
-    });
+const starburst2 = new mojs.Burst({
+    radius: {0:400},
+    count: 20,
+    children: {
+        fill: 'lightgreen',
+        points: 7,
+        angle: {'90': 0},
+        radius: {
+            10: 5
+        },
+        opacity: {1:0},
+        duration: 1500
+    }
+});
 
-    const burst3 = new mojs.Burst({
-        radius: {0:200},
-        count: 5,
-        children: {
-            color: 'purple',
-            points: 7,
-            angle: {'-360': 0},
-            radius: {
-                10: 5
-            },
-            opacity: {1:0},
-            duration: 3500
-        }
-    });
+const circ_opt = {
+    radius: {50:200},
+    fill: 'none',
+    stroke: 'yellow',
+    duration: 1500,
+    opacity: {1:0}
+};
 
-    const circ_opt = {
-        radius: {0:200},
-        fill: 'none',
-        stroke: 'yellow',
-        duration: 3000,
-        opacity: {1:0}
-    };
-    const circ = new mojs.Shape({
-        ...circ_opt
-    });
+const circ = new mojs.Shape({
+    ...circ_opt
+});
 
-    const circ2 = new mojs.Shape({
-        ...circ_opt,
-        delay: 500
-    });
+const circ2 = new mojs.Shape({
+    ...circ_opt,
+    delay: 500
+});
 
+const burstTl = new mojs.Timeline({
+}).add(starburst);
 
-    const timeline = new mojs.Timeline({
-        repeat: 999,
-    }).add(burst, burst2, circ, circ2, burst3).play();
+// setInterval(() => {
+//     burstTl.play();
+// }, 2000);
 </script>
 </html>
